@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Отслеживание Заказа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Отслеживание заказа</h1>
+        <input type="text" id="trackingCode" placeholder="Введите трек-код">
+        <button onclick="fetchOrderDetails()">Проверить статус</button>
+        <div id="errorMessage" class="error-message"></div>
+        <div id="orderDetails"></div>
+        <div id="additionalOrderDetails"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
